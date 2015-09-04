@@ -1,17 +1,26 @@
 body{
-	background-color: #CACACA;
+	/*background-color: #CACACA;*/
+	background-image: url("../images/gradient_back.jpg");
 }
 .title{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	text-align: center;
-	color: #282828;
+	color: white;
 }
 .title.large {
 	font-size: 155pt;
+	margin: 0pt;
 }
 .title.sub {
 	font-size: 4em;
+}
+.par{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	color: white;
+	font-size: 24pt;
 }
 #codeImage{
 	width: 75px; 
@@ -20,7 +29,7 @@ body{
 	background-size: 75px 57px;
 }
 #codeImage:hover{
-	background: url('../images/codeDark.png');
+	background: url('../images/codeWhite.png');
 	background-size: 75px 57px;
 }
 #tweetImage{
@@ -30,6 +39,6 @@ body{
 	background-size: 75px 57px;
 }
 #tweetImage:hover{
-	background: url('../images/twitterDark.png');
+	background: url('../images/twitterWhite.png');
 	background-size: 75px 57px;
 }
