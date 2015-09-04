@@ -1,6 +1,8 @@
 body{
 	/*background-color: #CACACA;*/
 	background-image: url("../images/gradient_back.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
 }
 .title{
 	font-family: 'Open Sans', sans-serif;
