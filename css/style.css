@@ -1,0 +1,35 @@
+body{
+	background-color: #CACACA;
+}
+.title{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	color: #282828;
+}
+.title.large {
+	font-size: 155pt;
+}
+.title.sub {
+	font-size: 4em;
+}
+#codeImage{
+	width: 75px; 
+	height: 57px;
+	background: url('../images/codeLight.png');
+	background-size: 75px 57px;
+}
+#codeImage:hover{
+	background: url('../images/codeDark.png');
+	background-size: 75px 57px;
+}
+#tweetImage{
+	width: 75px; 
+	height: 57px;
+	background: url('../images/twitterLight.png');
+	background-size: 75px 57px;
+}
+#tweetImage:hover{
+	background: url('../images/twitterDark.png');
+	background-size: 75px 57px;
+}
