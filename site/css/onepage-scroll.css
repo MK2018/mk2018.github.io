@@ -23,10 +23,9 @@ body, .onepage-wrapper, html {
   -webkit-transform-style: preserve-3d;
 }
 
-.onepage-wrapper .ops-section {
+.onepage-wrapper .section {
   width: 100%;
   height: 100%;
-  position: relative;
 }
 
 .onepage-pagination {
@@ -54,7 +53,7 @@ body, .onepage-wrapper, html {
   position: absolute;
   width: 4px;
   height: 4px;
-  background: black;
+  background: rgba(0,0,0,0.85);
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -73,9 +72,10 @@ body, .onepage-wrapper, html {
   overflow: auto;
 }
 
-.disabled-onepage-scroll .onepage-wrapper .ops-section {
+.disabled-onepage-scroll .onepage-wrapper .section {
   position: relative !important;
   top: auto !important;
+  left: auto !important;
 }
 .disabled-onepage-scroll .onepage-wrapper {
   -webkit-transform: none !important;
