@@ -1,4 +1,4 @@
 source: ./src
 destination: ./site
-highlighter: none
+highlighter: rouge
 exclude: [sass]
