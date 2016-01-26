@@ -1,4 +1,4 @@
-source: ./src
+source: ./
 destination: ./site
 highlighter: pygments
 exclude: [sass]
