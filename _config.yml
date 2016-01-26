@@ -1,0 +1,4 @@
+source: ./src
+destination: ./site
+highlighter: none
+exclude: [sass]

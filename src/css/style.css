@@ -1,0 +1,72 @@
+.page, .page1, .page2, .page3, .page4, .page5, .page6 {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  padding-left: 10%;
+  padding-top: 5%; }
+
+.page1 {
+  background-color: #ff4d4d;
+  color: black; }
+
+.page2 {
+  background-color: #1a75ff;
+  color: white; }
+
+.page3 {
+  background-color: #009900;
+  color: white; }
+
+.page4 {
+  background-color: purple;
+  color: white; }
+
+.page5 {
+  background-color: yellow; }
+
+.page6 {
+  background-color: orange; }
+
+.name {
+  font-size: 8em; }
+
+.subtitle {
+  font-size: 4em; }
+
+.resume, .resume-body {
+  font-size: 40pt; }
+
+.large-text {
+  font-size: 28pt; }
+
+.resume-body {
+  list-style-type: none; }
+
+.canv-proper {
+  border: 10px solid #000000; }
+
+.canv-wrapper {
+  position: relative; }
+
+.canv-content {
+  position: absolute;
+  top: 20px;
+  left: 30px; }
+
+@keyframes fade-in {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 100; } }
+.fade-animated {
+  opacity: 0;
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards; }
+
+.about-text {
+  font-size: 20pt;
+  margin-right: 25%; }
+
+/*# sourceMappingURL=style.css.map */
